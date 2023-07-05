@@ -1,0 +1,13 @@
+.hero__button {
+    width: 20rem;
+    height: 3rem;
+    background-color: var(--contrast-dark-color);
+    box-sizing: border-box;
+    padding: 0.6rem 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--contrast-light-color);
+}

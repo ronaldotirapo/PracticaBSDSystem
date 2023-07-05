@@ -5,6 +5,7 @@
 
 body {
     font-family: var(--open-sans);
+    color: var(--contrast-light-color);
 }
 
 .header,
@@ -14,6 +15,6 @@ body {
 .about,
 .contact,
 .footer {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
