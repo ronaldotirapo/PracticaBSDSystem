@@ -1,0 +1,13 @@
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    line-height: 2.6rem;
+}
+
+.header__nav a {
+    color: var(--contrast-light-color);
+    text-decoration: none;
+}

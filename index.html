@@ -9,27 +9,39 @@
 
     <title>Ejemplo de página</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/header/header__logo.css">
+    <link rel="stylesheet" href="./css/header/header__nav.css">
+    <link rel="stylesheet" href="./css/header/header__ul.css">
+    <link rel="stylesheet" href="./css/header/header__li-text.css">
 </head>
 
 <body>
     <!--Header-->
     <header class="header">
-        <img class="header__logo" src="./img/logo-bsdsystem.jpg" alt="Logo de BSD System">
+        <div class="header__logo">
+            <img src="./img/logo-bsdsystem.jpg" alt="Logo de BSD System">
+            <p>BSD System</p>
+        </div>
         <nav class="header__nav">
-            <ul class="header__ul">
-                <li class="header__li-text header__li-text--active">Inicio</li>
-                <li class="header__li-text">Sobre nosotros</li>
-                <li class="header__li-text">Contacto</l>
-            </ul>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Contacto</a>
         </nav>
     </header>
 
     <!--Main-->
-    <main>
+    <main class="main">
         <!--Hero section-->
-        <div class="hero">
+        <section class="hero">
             <h2 class="hero__title">
                 EMPIEZA A CRECER
             </h2>
@@ -38,10 +50,10 @@
                 tecnología
             </h3>
             <button class="hero__button">Contacto</button>
-        </div>
+        </section>
 
         <!--Services section-->
-        <div class="services">
+        <section class="services">
             <div class="services__item">
                 <h2 class="services__title">CAPACITACIÓN</h2>
                 <img class="services__img" src="./img/capacitation.jpg" alt="Imagen de una capacitación de personal">
@@ -58,10 +70,10 @@
                     negocio hacia el éxito
                 </p>
             </div>
-        </div>
+        </section>
 
         <!--Highlight section-->
-        <div class="highlight">
+        <section class="highlight">
             <div class="highlight__div">
                 <h3 class="highlight__title">TIEMPO</h3>
                 <p class="highlight__p">¡El tiempo es importante! Trabajamos en ritmo acelerado, para atender los plazos
@@ -82,10 +94,10 @@
                     todos los productos antes del lanzamiento.
                 </p>
             </div>
-        </div>
+        </section>
 
         <!--About section-->
-        <div class="about">
+        <section class="about">
             <h2 class="about__title">SOBRE NOSOTROS</h2>
             <p class="about__p">¡Servicios adecuados para tí y para tu empresa!</p>
             <p class="about__p">BSD System EIRL especializada en consultoría de informática y gestión de instalaciones
@@ -95,10 +107,10 @@
             </p>
             <p class="about__p about__p--highlight">¡Tenemos un equipo especializado y exclusivo para proyectos
                 increíbles!</p>
-        </div>
+        </section>
 
         <!--Contact section-->
-        <div class="contact">
+        <section class="contact">
             <div class="contact__div">
                 <h2 class="contact__title">CONTACTO</h2>
                 <p class="contact__p">Entre en contacto con nosotros</p>
@@ -117,7 +129,7 @@
                     </article>
                 </address>
             </div>
-        </div>
+        </section>
     </main>
 
     <!--Footer-->

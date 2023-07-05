@@ -1,0 +1,19 @@
+:root {
+    --open-sans: 'Open Sans', sans-serif;
+    --montserrat: 'Montserrat', serif;
+}
+
+body {
+    font-family: var(--open-sans);
+}
+
+.header,
+.hero,
+.services,
+.highlight,
+.about,
+.contact,
+.footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
