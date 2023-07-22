@@ -4,4 +4,4 @@
 
 ### Intento de crear una página web de información solo con HTML y CSS, tratando de comprender la organización de clases
 
-[La página web resultante aquí](index.html)
+[La página web resultante aquí](https://ronaldotirapo.github.io/Web-page-example---BSD-System/)
