@@ -1,0 +1,6 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    padding: 1.5rem 0rem;
+}

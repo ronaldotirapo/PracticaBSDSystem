@@ -1,0 +1,7 @@
+.footer__li-svg {
+    margin: 1rem 2rem;
+}
+
+.footer__li-svg:hover {
+    cursor: pointer;
+}

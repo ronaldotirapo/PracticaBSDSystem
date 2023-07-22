@@ -1,0 +1,11 @@
+.highlight__title {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.highlight__title::before {
+    content: url(../../img/icono-reloj.png);
+    padding-right: 1rem;
+}

@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--contrast-dark-color);
+    color: var(--contrast-light-color);
+}

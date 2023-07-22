@@ -1,0 +1,6 @@
+.highlight {
+    color: var(--contrast-dark-color);
+    padding: 3rem 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.about__p {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.about__p--highlight {
+    font-weight: 700;
+}

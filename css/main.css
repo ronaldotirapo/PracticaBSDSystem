@@ -18,3 +18,26 @@ body {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+h1,
+h2,
+h3,
+p,
+nav,
+div {
+    margin: 1rem auto;
+    max-width: 75ch;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: 20rem;
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 0.6rem 2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}

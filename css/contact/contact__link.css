@@ -1,0 +1,7 @@
+.contact__link {
+    display: flex;
+    flex-direction: column;
+    color: var(--shadow);
+    text-decoration: none;
+    line-height: 1.5rem;
+}

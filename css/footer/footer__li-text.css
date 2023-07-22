@@ -1,0 +1,7 @@
+.footer__li-text {
+    padding: 1rem;
+}
+
+.footer__li-text:hover {
+    cursor: pointer;
+}

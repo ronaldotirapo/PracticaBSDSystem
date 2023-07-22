@@ -1,5 +1,5 @@
 .hero__subtitle {
-    text-align: center;
     font-weight: 400;
     padding: 1rem 2rem;
+    max-width: 50ch;
 }
