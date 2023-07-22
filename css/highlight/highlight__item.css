@@ -3,3 +3,9 @@
     flex-direction: column;
     max-width: 50ch;
 }
+
+@media screen and (min-width: 1024px) {
+    .highlight__item {
+        max-width: 30ch;
+    }
+}

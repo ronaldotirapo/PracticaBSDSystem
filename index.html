@@ -37,8 +37,10 @@
     <link rel="stylesheet" href="./css/highlight/highlight__title.css">
     <link rel="stylesheet" href="./css/highlight/highlight__p.css">
     <link rel="stylesheet" href="./css/about/about.css">
+    <link rel="stylesheet" href="./css/about/about__content.css">
     <link rel="stylesheet" href="./css/about/about__title.css">
     <link rel="stylesheet" href="./css/about/about__p.css">
+    <link rel="stylesheet" href="./css/about/about__img.css">
     <link rel="stylesheet" href="./css/contact/contact.css">
     <link rel="stylesheet" href="./css/contact/contact__div.css">
     <link rel="stylesheet" href="./css/contact/contact__title.css">
@@ -51,13 +53,14 @@
     <link rel="stylesheet" href="./css/footer/footer__ul.css">
     <link rel="stylesheet" href="./css/footer/footer__li-svg.css">
     <link rel="stylesheet" href="./css/footer/footer__li-text.css">
+    <link rel="stylesheet" href="./css/landing.css">
 </head>
 
 <body>
     <!--Main-->
     <main class="main">
         <section class="landing">
-            
+
             <!--Header-->
             <header class="header">
                 <div class="header__logo">
@@ -130,15 +133,20 @@
 
         <!--About section-->
         <section class="about">
-            <h2 class="about__title">SOBRE NOSOTROS</h2>
-            <p class="about__p">¡Servicios adecuados para tí y para tu empresa!</p>
-            <p class="about__p">BSD System EIRL especializada en consultoría de informática y gestión de instalaciones
-                informáticas. Fue
-                creada y fundada el 07/01/2016, registrada dentro de las sociedades mercantiles y comerciales como una
-                Empresa Individual de Responsabilidad LTDA.
-            </p>
-            <p class="about__p about__p--highlight">¡Tenemos un equipo especializado y exclusivo para proyectos
-                increíbles!</p>
+            <div class="about__content">
+                <h2 class="about__title">SOBRE NOSOTROS</h2>
+                <p class="about__p">¡Servicios adecuados para tí y para tu empresa!</p>
+                <p class="about__p">BSD System EIRL especializada en consultoría de informática y gestión de
+                    instalaciones
+                    informáticas. Fue
+                    creada y fundada el 07/01/2016, registrada dentro de las sociedades mercantiles y comerciales como
+                    una
+                    Empresa Individual de Responsabilidad LTDA.
+                </p>
+                <p class="about__p about__p--highlight">¡Tenemos un equipo especializado y exclusivo para proyectos
+                    increíbles!</p>
+            </div>
+            <img class="about__img" src="./img/pc.png" alt="Ilustración de PC">
         </section>
 
         <!--Contact section-->
@@ -194,6 +202,10 @@
         </div>
 
         <div class="footer__div">
+            <div class="header__logo footer__logo">
+                <img src="./img/logo-bsdsystem.jpg" alt="Logo de BSD System">
+                <p>BSD System</p>
+            </div>
             <ul class="footer__ul">
                 <li class="footer__li-text">Inicio</li>
                 <li class="footer__li-text">Sobre nosotros</li>

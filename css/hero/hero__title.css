@@ -5,3 +5,10 @@
     padding: 0 1rem;
     margin: 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .hero__title {
+        text-align: left;
+        padding: 0;
+    }
+}

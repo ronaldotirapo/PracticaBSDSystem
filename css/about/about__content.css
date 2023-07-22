@@ -1,0 +1,11 @@
+.about__content {
+    color: var(--contrast-dark-color);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .about__content {
+        margin: 1rem
+    }
+}

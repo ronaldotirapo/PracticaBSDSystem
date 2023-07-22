@@ -5,7 +5,6 @@
     align-items: center;
     padding: 1rem 0;
     line-height: 2.6rem;
-    max-width: 50ch;
 }
 
 .header__link {
@@ -15,4 +14,14 @@
 
 .header__link--active {
     color: var(--shadow);
+}
+
+@media screen and (min-width: 1024px) {
+    .header__nav {
+        margin: 0;
+    }
+
+    .header__link {
+        padding-left: 3rem;
+    }
 }

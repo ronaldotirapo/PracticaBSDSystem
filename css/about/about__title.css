@@ -1,3 +1,10 @@
 .about__title {
     font-family: var(--montserrat);
 }
+
+@media screen and (min-width: 1024px) {
+    .about__title {
+        text-align: left;
+        margin: 1rem 0;
+    }
+}

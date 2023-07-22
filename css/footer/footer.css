@@ -4,3 +4,19 @@
     background-color: var(--contrast-dark-color);
     color: var(--contrast-light-color);
 }
+
+.footer__logo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__logo {
+        display: flex;
+    }
+}

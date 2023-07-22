@@ -1,3 +1,11 @@
 .footer__div {
     padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .footer__div {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+}

@@ -3,6 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    background-color: var(--contrast-dark-color);
     padding-bottom: 4rem;
+    max-width: 150ch;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        align-items: flex-start;
+        padding: 9rem 6rem;
+    }
 }

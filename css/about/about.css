@@ -1,8 +1,7 @@
 .about {
-    color: var(--contrast-dark-color);
     display: flex;
-    flex-direction: column;
-    padding: 1.5rem 2rem 3rem;
+    max-width: 150ch;
     margin: 0 auto;
-    max-width: 75ch;
+    justify-content: space-around;
+    padding: 3rem;
 }

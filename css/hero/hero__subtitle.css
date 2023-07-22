@@ -3,3 +3,11 @@
     padding: 1rem 2rem;
     max-width: 50ch;
 }
+
+@media screen and (min-width: 1024px) {
+    .hero__subtitle {
+        text-align: left;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+}
